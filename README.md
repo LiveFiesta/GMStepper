@@ -82,8 +82,10 @@ var labelWidthWeight: CGFloat = 0.5
 
 /// Color of the flashing animation on the buttons in case the value hit the limit.
 var limitHitAnimationColor: UIColor = UIColor(red:0.26, green:0.6, blue:0.87, alpha:1)
-```
 
+/// Change the center label to any string you want
+var label : UILabel
+```
 
 ## Author
 
