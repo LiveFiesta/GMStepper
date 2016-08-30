@@ -185,7 +185,8 @@ import UIKit
         return button
     }()
 
-    lazy var label: UILabel = {
+    @IBInspectable
+    public lazy var label: UILabel = {
         let label = UILabel()
         label.textAlignment = .Center
         if self.showIntegerIfDoubleIsInteger && floor(self.value) == self.value {
